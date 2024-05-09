@@ -47,6 +47,6 @@ class Config:
         self.ADMINS_ONLY: bool = os.environ.get("ADMINS_ONLY", False)
         self.SPOTIFY_CLIENT_ID: str = os.environ.get("SPOTIFY_CLIENT_ID", None)
         self.SPOTIFY_CLIENT_SECRET: str = os.environ.get("SPOTIFY_CLIENT_SECRET", None)
-
+self.UPSTREAM_REPO: bool = os.environ.get("UPSTREAM_REPO","https://github.com/fasdxoox/MusicPlayer",)
 
 config = Config()
